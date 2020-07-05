@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{66db1dc1-aebc-49bb-93b5-2397b67b018c}</ID>
+    <Name>Remove bloat</Name>
+    <Version>1.5</Version>
+    <OwnerType>ITAdmin</OwnerType>
+    <Rank>0</Rank>
+    <Notes></Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <UniversalAppUninstall>
+          <RemoveProvisionedApp>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Name="Microsoft.549981C3F5F10_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.BingWeather_8wekyb3d8bbwe" Name="Microsoft.BingWeather_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.GetHelp_8wekyb3d8bbwe" Name="Microsoft.GetHelp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Getstarted_8wekyb3d8bbwe" Name="Microsoft.Getstarted_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MSPaint_8wekyb3d8bbwe" Name="Microsoft.MSPaint_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Messaging_8wekyb3d8bbwe" Name="Microsoft.Messaging_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Name="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Name="Microsoft.MixedReality.Portal_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Office.OneNote_8wekyb3d8bbwe" Name="Microsoft.Office.OneNote_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.OneConnect_8wekyb3d8bbwe" Name="Microsoft.OneConnect_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.People_8wekyb3d8bbwe" Name="Microsoft.People_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Print3D_8wekyb3d8bbwe" Name="Microsoft.Print3D_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.SkypeApp_kzf8qxf38zg5c" Name="Microsoft.SkypeApp_kzf8qxf38zg5c">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.Wallet_8wekyb3d8bbwe" Name="Microsoft.Wallet_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Name="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.WindowsMaps_8wekyb3d8bbwe" Name="Microsoft.WindowsMaps_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.XboxApp_8wekyb3d8bbwe" Name="Microsoft.XboxApp_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+            <RemoveProvisionedApplication PackageFamilyName="Microsoft.YourPhone_8wekyb3d8bbwe" Name="Microsoft.YourPhone_8wekyb3d8bbwe">RemoveProvisionedApp</RemoveProvisionedApplication>
+          </RemoveProvisionedApp>
+          <Uninstall>
+            <UninstallApplication PackageFamilyName="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Name="Microsoft.549981C3F5F10_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.BingWeather_8wekyb3d8bbwe" Name="Microsoft.BingWeather_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.GetHelp_8wekyb3d8bbwe" Name="Microsoft.GetHelp_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.Getstarted_8wekyb3d8bbwe" Name="Microsoft.Getstarted_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.MSPaint_8wekyb3d8bbwe" Name="Microsoft.MSPaint_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.Messaging_8wekyb3d8bbwe" Name="Microsoft.Messaging_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Name="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Name="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Name="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Name="Microsoft.MixedReality.Portal_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.Office.OneNote_8wekyb3d8bbwe" Name="Microsoft.Office.OneNote_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.OneConnect_8wekyb3d8bbwe" Name="Microsoft.OneConnect_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.People_8wekyb3d8bbwe" Name="Microsoft.People_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.Print3D_8wekyb3d8bbwe" Name="Microsoft.Print3D_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.SkypeApp_kzf8qxf38zg5c" Name="Microsoft.SkypeApp_kzf8qxf38zg5c">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.Wallet_8wekyb3d8bbwe" Name="Microsoft.Wallet_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Name="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.WindowsMaps_8wekyb3d8bbwe" Name="Microsoft.WindowsMaps_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.XboxApp_8wekyb3d8bbwe" Name="Microsoft.XboxApp_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+            <UninstallApplication PackageFamilyName="Microsoft.YourPhone_8wekyb3d8bbwe" Name="Microsoft.YourPhone_8wekyb3d8bbwe">Uninstall</UninstallApplication>
+          </Uninstall>
+        </UniversalAppUninstall>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>
