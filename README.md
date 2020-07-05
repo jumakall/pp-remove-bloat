@@ -5,12 +5,12 @@ The packages are removed from currently logged in user and from provisioned pack
 :exclamation: This might not uninstall packages from other existing accounts.
 
 ## Installation
-Double click the ``.ppkg`` file to install, or use PowerShell ``Install-ProvisioningPackage package.ppkg -QuietInstall``.
+First build the provisioning package using Windows Configuration Designer, then double click the ``.ppkg`` file to install, or use PowerShell ``Install-ProvisioningPackage package.ppkg -QuietInstall``.
 
 ## Adding packages for uninstallation
 You need the package name and publisher Id to add it to the provisioning package. You can get all necessary information with this PowerShell command ``Get-AppXPackage | Select Name,PublisherId``. Use the following format for package name for the rest of the steps``<Name>_<PublisherId>``.
 
-After that use Windows Configuration Designer to edit the provisioning package and add the package under ``Runtime settings/UniversalAppUninstall/RemoveProvisionedApp`` and ``Runtime settings/UniversalAppUninstall/Uninstall`` and choose the action ``RemoveProvisionedApp`` or ``Uninstall`` for each package, then just build the provisioning package.
+After that use Windows Configuration Designer to edit the provisioning package and add the package under ``Runtime settings/UniversalAppUninstall/RemoveProvisionedApp`` and ``Runtime settings/UniversalAppUninstall/Uninstall`` and choose the action ``RemoveProvisionedApp`` or ``Uninstall`` for each package.
 
 ## UWP packages removed by this provisioning package
 * Microsoft.BingWeather_8wekyb3d8bbwe
